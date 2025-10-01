@@ -13,8 +13,9 @@ class MainApp extends StatelessWidget {
 }
 
 class LayoutApp extends StatelessWidget {
-  
-  
+  const LayoutApp({super.key});
+
+  @override
   Widget build(BuildContext context) {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
@@ -37,7 +38,7 @@ class LayoutApp extends StatelessWidget {
               'Stacked on yellow box',
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
-          
+          ],
         ),
       ],
     );
